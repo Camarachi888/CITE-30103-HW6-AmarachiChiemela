@@ -1,0 +1,19 @@
+Preprocessing:
+	The preprocessor prepares the code before actual compilation and handles directives like #include.
+	Possible error: if #include<stdio> is used but stdio does not exist, there will be a file not found error. 
+
+Compilation:
+	The compiler checks the program for syntax and semantic errors and then translates the source code to assembly language.
+	Possible Syntax Error: int x "; expected after statement"
+
+Assembly:
+	The assembler converts assembly code to machine/object code. 
+	Possible Error: An invalid instruction error may occur if the compiler generates unsupported assembly instructions. 
+
+Linking:
+	The linker combines the object file with required libraries or other object files into a single executable file. 
+	Possible Err: Calling printf() without linking the standard library could result in an undefined reference error. 
+
+Loading:
+	The operating system loads the executable file into memory and begins execution. 
+	Possible Erro: Runtime error. 
