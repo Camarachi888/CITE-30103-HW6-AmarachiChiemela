@@ -1,0 +1,1 @@
+If #include<stdio.h> is removed from a program that calls printf, the program would throw an undefined reference error. The error would be thrown at the linking stage when the linker tries to combine the object file and the library contain printf and finds that the ibject file does not include that library.
