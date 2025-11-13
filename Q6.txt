@@ -1,0 +1,13 @@
+intial statement: int 1value = 10;
+Naming error: variable name begins with a digit. variable names can only begin with letters or underscore(_);
+corrected statement: int value1 = 10;
+
+initial statement: float avg-rate = 12.5;
+Naming error: variable name contains an invalid character (hyphen/-). names can only contain letters, digits(0-9), and underscore
+corrected statement: float avg_rate = 12.5; or float avgRate = 12.5;
+
+initial statement: char Class = 'A'; 
+Naming error: conflicts with reserved keywords (class) and naming conventions(variableName). 
+corrected statement: char classGrade = 'A';
+
+
