@@ -1,0 +1,12 @@
+The developer got an unexpected result because arithmetic operator has higher precedence than the shift operator causing a and b to be added before the binary shift occurs. To correct this the developer can either:
+	1.) use parentheses to force order
+		res = a + (b<<1);
+	2.) use arithmetic operation instead of shift operation
+		res = a+b+b;
+
+
+
+
+aechiemela@lovelace:~/c_programs/HW6$ ./Q12.out
+res = 11
+
