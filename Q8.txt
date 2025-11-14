@@ -1,0 +1,5 @@
+Global variable:
+	Declared outside any function and can be accessed by any function in the file unless restricted with the keyword static.
+
+Local variable:
+	Declared inside a function and can be accessed only within the function it is declared in.
